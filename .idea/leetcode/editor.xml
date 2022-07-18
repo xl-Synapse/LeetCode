@@ -58,6 +58,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_67_AddBinary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_67_AddBinary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn67" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_67_AddBinary.java" />
+              <option name="titleSlug" value="add-binary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_69_Sqrtx.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_69_Sqrtx.md" />
+              <option name="frontendQuestionId" value="leetcode.cn69" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_69_Sqrtx.java" />
+              <option name="titleSlug" value="sqrtx" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
