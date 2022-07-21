@@ -1,0 +1,39 @@
+总共分三步：
+1、用map来记录每个元素出现的次数
+2、按map中的值大小排序，先让其有序，再逆序
+3、输入前k个高频元素
+
+* 
+
+```
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        //统计元素出现的频率
+        unordered_map<int,int> mp;
+        for(int i=0;i<nums.size();i++)
+        {
+            mp[nums[i]]++;
+        }
+
+        //按值排序
+        vector<pair<int,int>> vec; 
+        for(unordered_map<int,int>::iterator it=mp.begin();it!=mp.end();it++)
+        {
+            vec.push_back(make_pair(it->second,it->first));
+        }
+        sort(vec.begin(),vec.end());
+        reverse(vec.begin(),vec.end());
+
+        //输出前k个高频
+        vector<int> res;
+        for(vector<pair<int,int>>::iterator it=vec.begin();it!=vec.begin()+k;it++)
+        {
+            res.push_back(it->second);
+        }
+
+        return res;
+    }
+};
+```
+
