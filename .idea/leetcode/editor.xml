@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_147_InsertionSortList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_147_InsertionSortList.md" />
+              <option name="frontendQuestionId" value="leetcode.cn147" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_147_InsertionSortList.java" />
+              <option name="titleSlug" value="insertion-sort-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_152_MaximumProductSubarray.java">
           <value>
             <LeetcodeEditor>
@@ -88,6 +99,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_170_TwoSumIiiDataStructureDesign.java" />
               <option name="titleSlug" value="two-sum-iii-data-structure-design" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_198_HouseRobber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_198_HouseRobber.md" />
+              <option name="frontendQuestionId" value="leetcode.cn198" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_198_HouseRobber.java" />
+              <option name="titleSlug" value="house-robber" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -124,6 +146,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_215_KthLargestElementInAnArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_215_KthLargestElementInAnArray.md" />
+              <option name="frontendQuestionId" value="leetcode.cn215" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_215_KthLargestElementInAnArray.java" />
+              <option name="titleSlug" value="kth-largest-element-in-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_219_ContainsDuplicateIi.java">
           <value>
             <LeetcodeEditor>
@@ -143,6 +176,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_249_GroupShiftedStrings.java" />
               <option name="titleSlug" value="group-shifted-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_283_MoveZeroes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_283_MoveZeroes.md" />
+              <option name="frontendQuestionId" value="leetcode.cn283" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_283_MoveZeroes.java" />
+              <option name="titleSlug" value="move-zeroes" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -399,6 +443,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_912_SortAnArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_912_SortAnArray.md" />
+              <option name="frontendQuestionId" value="leetcode.cn912" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_912_SortAnArray.java" />
+              <option name="titleSlug" value="sort-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_918_MaximumSumCircularSubarray.java">
           <value>
             <LeetcodeEditor>
@@ -407,6 +462,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_918_MaximumSumCircularSubarray.java" />
               <option name="titleSlug" value="maximum-sum-circular-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_剑指 Offer 45_BaShuZuPaiChengZuiXiaoDeShuLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_剑指 Offer 45_BaShuZuPaiChengZuiXiaoDeShuLcof.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 45" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_剑指 Offer 45_BaShuZuPaiChengZuiXiaoDeShuLcof.java" />
+              <option name="titleSlug" value="ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
