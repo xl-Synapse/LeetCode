@@ -1,25 +1,31 @@
-//你是一个专业的小偷，计划偷窃沿街的房屋。每间房内都藏有一定的现金，影响你偷窃的唯一制约因素就是相邻的房屋装有相互连通的防盗系统，如果两间相邻的房屋在同一晚上
-//被小偷闯入，系统会自动报警。 
+//给你一个整数数组 nums ，你可以对它进行一些操作。 
 //
-// 给定一个代表每个房屋存放金额的非负整数数组，计算你 不触动警报装置的情况下 ，一夜之内能够偷窃到的最高金额。 
+// 每次操作中，选择任意一个 nums[i] ，删除它并获得 nums[i] 的点数。之后，你必须删除 所有 等于 nums[i] - 1 和 nums[i]
+// + 1 的元素。 
+//
+// 开始你拥有 0 个点数。返回你能通过这些操作获得的最大点数。 
 //
 // 
 //
 // 示例 1： 
 //
 // 
-//输入：[1,2,3,1]
-//输出：4
-//解释：偷窃 1 号房屋 (金额 = 1) ，然后偷窃 3 号房屋 (金额 = 3)。
-//     偷窃到的最高金额 = 1 + 3 = 4 。 
+//输入：nums = [3,4,2]
+//输出：6
+//解释：
+//删除 4 获得 4 个点数，因此 3 也被删除。
+//之后，删除 2 获得 2 个点数。总共获得 6 个点数。
+// 
 //
 // 示例 2： 
 //
 // 
-//输入：[2,7,9,3,1]
-//输出：12
-//解释：偷窃 1 号房屋 (金额 = 2), 偷窃 3 号房屋 (金额 = 9)，接着偷窃 5 号房屋 (金额 = 1)。
-//     偷窃到的最高金额 = 2 + 9 + 1 = 12 。
+//输入：nums = [2,2,3,3,3,4]
+//输出：9
+//解释：
+//删除 3 获得 3 个点数，接着要删除两个 2 和 4 。
+//之后，再次删除 3 获得 3 个点数，再次删除 3 获得 3 个点数。
+//总共获得 9 个点数。
 // 
 //
 // 
@@ -27,21 +33,44 @@
 // 提示： 
 //
 // 
-// 1 <= nums.length <= 100 
-// 0 <= nums[i] <= 400 
+// 1 <= nums.length <= 2 * 10⁴ 
+// 1 <= nums[i] <= 10⁴ 
 // 
-// Related Topics 数组 动态规划 👍 2217 👎 0
+// Related Topics 数组 哈希表 动态规划 👍 652 👎 0
 
 
 package leetcode.editor.cn;
-public class XL_198_HouseRobber{
+public class XL_740_DeleteAndEarn{
     public static void main(String[] args) {
-        Solution solution = new XL_198_HouseRobber().new Solution();
-        System.out.println(solution.rob(new int[]{1, 2, 3, 1}));
+        Solution solution = new XL_740_DeleteAndEarn().new Solution();
+        System.out.println(solution.deleteAndEarn(new int[]{3,4,2}));
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int rob(int[] nums) {
+
+
+        /**
+         * 面试等通知法、
+         * 强行用大数组统计每个数字对应的所有价值、
+         * 最后调用打家劫舍、都是不能相邻数字偷取、
+         *
+         * 解答成功:
+         * 		执行耗时:20 ms,击败了5.16% 的Java用户
+         * 		内存消耗:41.9 MB,击败了17.57% 的Java用户
+         *
+         * @param nums
+         * @return
+         */
+    public int deleteAndEarn(int[] nums) {
+        int[] datas = new int[(int)Math.pow(10, 4) + 1];
+        for (int num : nums) {
+            datas[num] += num;
+        }
+        return robProcess(datas);
+
+    }
+
+    public int robProcess(int[] nums) {
         // 小偷只有两种选择、 隔一个偷或者隔两个偷、
         if(nums == null)
             return 0;
