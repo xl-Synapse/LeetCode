@@ -48,7 +48,6 @@ public class XL_740_DeleteAndEarn{
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 
-
         /**
          * 面试等通知法、
          * 强行用大数组统计每个数字对应的所有价值、
