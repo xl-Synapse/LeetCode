@@ -179,6 +179,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_1705_MaximumNumberOfEatenApples.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_1705_MaximumNumberOfEatenApples.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1705" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_1705_MaximumNumberOfEatenApples.java" />
+              <option name="titleSlug" value="maximum-number-of-eaten-apples" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_170_TwoSumIiiDataStructureDesign.java">
           <value>
             <LeetcodeEditor>
@@ -432,6 +443,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_40_CombinationSumIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_40_CombinationSumIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn40" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_40_CombinationSumIi.java" />
+              <option name="titleSlug" value="combination-sum-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_416_PartitionEqualSubsetSum.java">
           <value>
             <LeetcodeEditor>
@@ -473,6 +495,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_454_FourSumIi.java" />
               <option name="titleSlug" value="4sum-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/XL_45_JumpGameIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/XL_45_JumpGameIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn45" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/XL_45_JumpGameIi.java" />
+              <option name="titleSlug" value="jump-game-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
