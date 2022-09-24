@@ -29,12 +29,36 @@
 
 
 package leetcode.editor.cn;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 public class XL_215_KthLargestElementInAnArray{
     public static void main(String[] args) {
         Solution solution = new XL_215_KthLargestElementInAnArray().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+
+/*        解答成功:
+        执行耗时:57 ms,击败了15.04% 的Java用户
+        内存消耗:51.1 MB,击败了6.92% 的Java用户
+
+        堆排序、出堆到第k个、
+*/
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>((o1, o2) -> o2 - o1);
+
+        for (int num : nums) {
+            queue.add(num);
+        }
+
+        for (int i = 0; i < k - 1; i++) {
+            queue.poll();
+        }
+
+        return queue.poll();
+    }
         /**
          * 选择插入排序、但是已经会超时了、
          * 不超时得用堆排序、
@@ -43,7 +67,7 @@ class Solution {
          * @param k
          * @return
          */
-    public int findKthLargest(int[] nums, int k) {
+    public int findKthLargestV0(int[] nums, int k) {
         int temp = Integer.MIN_VALUE;
         int tempIndex = -1;
         for(int i = 0; i < k; i++){ // 只需要找到第k大、
